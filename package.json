@@ -2,10 +2,10 @@
     "name": "indial-serve",
     "version": "1.0.0",
     "description": "restaurants pool",
-    "main": "app.js",
-    "start": "node app.js",
+    "main": "app.js"
     "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1"m
+	"start": "node app.js"
     },
     "keywords": [
 	"restaurants"
