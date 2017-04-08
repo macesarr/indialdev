@@ -1,18 +1,19 @@
 {
-  "name": "indial-serve",
-  "version": "1.0.0",
-  "description": "restaurants pool",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "restaurants"
-  ],
-  "author": "Macesarr",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.15.2",
-    "mongodb": "^2.2.25"
-  }
+    "name": "indial-serve",
+    "version": "1.0.0",
+    "description": "restaurants pool",
+    "main": "app.js",
+    "start": "node app.js"
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+	"restaurants"
+    ],
+    "author": "Macesarr",
+    "license": "ISC",
+    "dependencies": {
+	"express": "^4.15.2",
+	"mongodb": "^2.2.25"
+    }
 }
