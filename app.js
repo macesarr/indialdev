@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 var MongoClient = require('mongodb').MongoClient
 
-MongoClient.connect('mongodb://localhost:27017/indial', function (err, db) {
+/*MongoClient.connect('mongodb://localhost:27017/indial', function (err, db) {
   if (err) throw err
 
   db.collection('restaurants').find().toArray(function (err, result) {
@@ -10,7 +10,7 @@ MongoClient.connect('mongodb://localhost:27017/indial', function (err, db) {
     console.log(result)
   })
 })
-
+*/
 
 app.get('/', function (req, res) {
     res.send('Hello World!')
